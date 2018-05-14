@@ -1,0 +1,118 @@
+.wrapper-img {
+	background: url(img/Layer15.jpg);
+	height: 1000px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 70px;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+	.wrapper-img {
+		background: url(img/Layer15@2x.jpg);
+	}
+}
+.container {
+	width: 1200px;
+	margin: auto;
+}
+.main-header {
+	height: 100px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-bottom: 140px;
+}
+.main-nav__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	width: 640px;
+}
+
+.logo__link {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+}
+.main-nav__link {
+	color: #fff;
+	padding-bottom: 15px;
+	border-bottom: 2px solid transparent;
+}
+
+.main-nav__link--hover:hover {
+	color: #fce38a;
+	border-bottom: 2px solid #fce38a;
+    -webkit-transition-duration: .2s;
+         -o-transition-duration: .2s;
+            transition-duration: .2s;
+}
+.main-nav__svg {
+	fill: #fff;
+	border-bottom: 2px solid transparent;
+}
+
+.main-nav__svg--hover:hover {
+	fill: #fce38a;
+}
+ 
+
+
+.section-bg-img {
+	margin: auto;
+	text-align: center;
+	
+}
+.subtitle{
+	 font-family: 'Kaushan Script', cursive;
+}
+.subtitle__bg-img {
+    font-size: 72px;
+	color: #fff;
+    margin-bottom: 100px;
+}
+.title {
+	margin: auto;
+	text-transform: uppercase;
+}
+.title__bg-img {
+	width: 900px;
+	margin: 40px auto;
+	line-height: 1;
+	font-size: 150px; 
+	color: #fff;
+	margin-bottom: 100px;
+}
+.btn {
+	padding: 10px 20px;
+	font-weight: 700;
+	color: #fff;
+	border: 0;
+}
+.btn--learnmore {
+	border: 3px solid #fff;
+	background-color: transparent;
+}
+.btn--subscribe {
+	background-color: #95e1d3;
+}
+.btn--learnmore--hover:hover  {
+	color: #fce38a;
+	border: 3px solid #fce38a;
+	-webkit-transition-duration: .2s;
+	     -o-transition-duration: .2s;
+	        transition-duration: .2s;
+
+}
